@@ -14,7 +14,7 @@ namespace Gitexp
             history.Add("Initialize history list");
             history.Add($"Changeset {Guid.NewGuid().ToString("N")}");
 
-			Console.WriteLine("Test #4");
+			Console.WriteLine("Test #5");
 
             history.ForEach(x => Console.WriteLine(x));
         }
